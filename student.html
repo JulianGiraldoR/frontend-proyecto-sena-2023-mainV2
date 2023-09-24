@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Estudiante</title>
+
+      <link
+        rel="stylesheet"
+        href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      />
+
+      <link rel="stylesheet" href="css/login.css" />
+      <link rel="stylesheet" href="css/style.css" />
+
+      <script
+        src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+        crossorigin="anonymous"
+      ></script>
+    </head>
+  </head>
+  <body>
+    <!-- Navigation -->
+
+    <nav>
+    
+      <img 
+        src="https://res.cloudinary.com/diav64knu/image/upload/v1691964161/samples/ProyectColegio/assets/logo_colegio_wgwncy.png"
+        alt="logo_colegio"
+      />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Acerca de Nosotros</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Cursos</a></li>
+          <li><a href="#">Contancto</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+        <img id="menu-btn" src="images/menu.png" alt="" />
+      </div>
+    </nav>
+    <div class="container">
+      <div
+        class="background-layer"
+        style="background-image: url(https://res.cloudinary.com/diav64knu/image/upload/v1691964161/samples/ProyectColegio/assets/estudiante_v5aj6j.jpg)"
+      ></div>
+      <div class="item">
+        <h2>Ingreso Estudiantes</h2>
+        <img class="logo" src="images/logo_colegio.png" />
+        <div class="text-item">
+        </div>
+      </div>
+      <div class="login-section">
+        <div class="form-box login">
+          <form action="">
+            <h2>Iniciar Sesión</h2>
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-user-account"></i></span>
+              <input type="email" required />
+              <label>Correo Electronico</label>
+            </div>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input type="password" required />
+              <label>Contraseña</label>
+            </div>
+            <div class="remember-password">
+              <a href="forget.html">Olvidaste tu contraseña</a>
+            </div>
+            <button class="btn">Ingresar</button>
+            <div class="create-account">
+              <p>
+                ¿Aún no tienes cuenta?<a href="#" class="register-link">
+                  Registrarse</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="form-box register">
+          <form action="">
+            <h2>Registro Estudiante</h2>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-user"></i></span>
+              <input type="text" required />
+              <label>Nombre</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-user-account"></i></span>
+              <input type="text" required />
+              <label>Correo Electronico</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input type="password" required />
+              <label>Contraseña</label>
+            </div>
+
+            <button class="btn">Registrarse</button>
+            <div class="create-account">
+              <p>
+                Tienes una cuenta?
+                <a href="#" class="login-link"> Iniciar Sesión</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
