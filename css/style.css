@@ -527,16 +527,19 @@ footer .copyright .pro-links i:hover{
 #about-container{
   display: flex;
   align-items: center;
-  padding: 8vw 8vw 2vw 8vw;
+  padding: 8vw 10vw 2vw 8vw;
 
 }
 
 #about-container .about-img{
-  width: 60%;
+  width: 40%;
+}
+.img_bac2{
+  width: 90%;
 }
 
 #about-container .about-text{
-  width: 40%;
+  width: 60%;
   padding: 40px;
 }
 
@@ -548,6 +551,41 @@ footer .copyright .pro-links i:hover{
   color: #686f7a;
   font-weight: 300;
 }
+
+#mision_vision{
+  display: flex;
+  align-items: center;
+  padding: 2vw;
+  
+}
+.features{
+  
+ 
+  text-align: center;
+  }
+
+  .about-mision{
+    text-align: justify;
+    padding: 2vw;
+    width: 50%;
+    
+  }
+  .about-vision{
+    text-align: justify;
+    padding: 2vw;
+    width: 50%;
+    
+  }
+
+  .subt{
+   
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgb(70, 70, 87) ;
+    
+  }
+
 
 /* Blog */
 
