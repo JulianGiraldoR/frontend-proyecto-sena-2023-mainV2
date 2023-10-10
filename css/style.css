@@ -531,12 +531,13 @@ footer .copyright .pro-links i:hover{
 
 }
 
-#about-container .about-img{
-  width: 40%;
+#about-container .about-video{
+ 
+  width:400px ;
+  height: auto;
+  border:none;
 }
-.img_bac2{
-  width: 90%;
-}
+
 
 #about-container .about-text{
   width: 60%;
